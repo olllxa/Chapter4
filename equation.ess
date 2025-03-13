@@ -2,7 +2,7 @@ start
 new k number
 set k 2
 new x number
-loop eq (7 > k)
+loop eq (6 > k)
   set k k + 2
 end eq
 log string "x = " >> k
