@@ -1,3 +1,13 @@
 start
-new PI number
-loop pii ()
+new a number
+set a 22
+new b number
+set b 7
+new sum number
+set sum 0
+loop a (a > 7)
+    set a a - b
+    set sum sum + 1
+end a
+log string sum >> "." >> a >> "/" >> b 
+finish
