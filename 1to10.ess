@@ -2,6 +2,9 @@ start
 new k number
 set k 1
 new table string
+log string "loop table (11 > k)"
+log string "  log string k"
+log string "  set k k + 1"
 loop table (11 > k)
   log string k 
   set k k + 1
